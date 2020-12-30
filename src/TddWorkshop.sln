@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddWorkshopAPI.Unit.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TddWorkshopAPI.Business.Unit.Tests", "TddWorkshopAPI.Business.Unit.Tests\TddWorkshopAPI.Business.Unit.Tests.csproj", "{7C720EBD-7FE8-4AEC-901C-FDCCD5439C8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coindesk.Integration.Tests", "Coindesk.Integration.Tests\Coindesk.Integration.Tests.csproj", "{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{7C720EBD-7FE8-4AEC-901C-FDCCD5439C8D}.Release|x64.Build.0 = Release|Any CPU
 		{7C720EBD-7FE8-4AEC-901C-FDCCD5439C8D}.Release|x86.ActiveCfg = Release|Any CPU
 		{7C720EBD-7FE8-4AEC-901C-FDCCD5439C8D}.Release|x86.Build.0 = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|x64.Build.0 = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Debug|x86.Build.0 = Debug|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|x64.Build.0 = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E3A2634-BF6B-4BCA-A56C-9AD65E1340A0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
