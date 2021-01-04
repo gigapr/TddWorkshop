@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Coindesk;
-using PriceIndex = TddWorkshopAPI.Domain.PriceIndex;
+using TddWorkshopAPI.Domain;
 
 namespace TddWorkshopAPI.Services
 {
@@ -14,7 +14,7 @@ namespace TddWorkshopAPI.Services
             _coindeskClient = coindeskClient;
         }
         
-        public async Task<PriceIndex> GetPriceIndex(string currency)
+        public async Task<PriceIndexResponse> GetPriceIndex(string currency)
         {
             var priceIndex = await _coindeskClient.GetBitcoinPriceIndex();
 
@@ -26,7 +26,7 @@ namespace TddWorkshopAPI.Services
                 _ => throw new NotSupportedException(string.Format( $"'{currency}' is not a supported currency. Supported currencies are [EUR, USD, GBP]"))
             };
 
-            return new PriceIndex
+            return new PriceIndexResponse
             {
                Updated = priceIndex.Time.Updated,
                UpdatedISO = priceIndex.Time.UpdatedISO,

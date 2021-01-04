@@ -5,6 +5,6 @@ namespace TddWorkshopAPI.Services
 {
     public interface PriceIndexService
     {
-        Task<PriceIndex> GetPriceIndex(string currency);
+        Task<PriceIndexResponse> GetPriceIndex(string currency);
     }
 }

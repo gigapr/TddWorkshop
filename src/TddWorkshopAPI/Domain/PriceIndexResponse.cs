@@ -1,6 +1,6 @@
 namespace TddWorkshopAPI.Domain
 {
-    public class PriceIndex
+    public class PriceIndexResponse
     {
         public string Updated { get; set; }
         public string UpdatedISO { get; set; }
